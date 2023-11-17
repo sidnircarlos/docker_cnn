@@ -19,9 +19,10 @@ Criação de uma imagem a partir do tensorflow-gpu para desenvolvimento de redes
      Será criada uma imagem docker chamada image-dl e o WORDIR séra /home/notebooks.
      
 3) Inicie o container chamado jupyterserver:
-        ```bash
+   ```bash
     chmod +x run.sh
    ```
+   
    ```bash
     bash run.sh
    ```
