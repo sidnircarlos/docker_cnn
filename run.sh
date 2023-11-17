@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Construa a imagem Docker
-docker build -t image-dl . &&
-
 # Execute o contêiner Docker
 docker run -d --rm --gpus all --name jupyterserver -p 8888:8888 -v "$PWD/notebooks:/home/notebooks" image-dl &&
 
