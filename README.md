@@ -9,12 +9,12 @@ Criação de uma imagem a partir do tensorflow-gpu para desenvolvimento de redes
 - Scikit-metris
 - jupyter notebook.
 
-  1) Faça o build da imagem do contâoiner
+1) Faça o build da imagem do contâoiner
      $chmod +x build.sh
      $bash build.sh
      Será criada uma imagem docker chamada image-dl e o WORDIR séra /home/notebooks.
      
- 2) Inicie o container chamado jupyterserver:
+2) Inicie o container chamado jupyterserver:
     $chmod +x run.sh
     $bash run.sh
     Esse comando iniciará o container jupyterserver, seu ambiente de trabalho será $PWD/home/notebooks. Em seguinda, mostrará o container em execução e o log de execução do container.
