@@ -9,7 +9,7 @@ Criação de uma imagem a partir do tensorflow-gpu para desenvolvimento de redes
 - Scikit-metris
 - jupyter notebook.
 
-1) Faça o build da imagem do contâoiner
+1) Faça o build da imagem do container
      $chmod +x build.sh
      $bash build.sh
      Será criada uma imagem docker chamada image-dl e o WORDIR séra /home/notebooks.
