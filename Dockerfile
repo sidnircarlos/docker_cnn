@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:2.15.0-gpu
 
 RUN mkdir -p /home/notebooks
 WORKDIR /home/notebooks
