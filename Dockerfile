@@ -5,7 +5,7 @@ WORKDIR /home/notebooks
    
 RUN pip install \
     osmnx \
-    opencv-python
+    opencv-python \
     glob2 \
     matplotlib \
     requests \
